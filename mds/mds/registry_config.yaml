@@ -1,0 +1,4 @@
+- host: localhost:5001
+  prefix: modelcard-alt
+  repos:
+    - falcon

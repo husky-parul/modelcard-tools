@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcg"
+version = "0.1.0"
+description = "ModelCard Generator for vLLM runtime and metadata"
+authors = [{ name="Parul Singh", email="parsingh@redhat.com" }]
+dependencies = ["requests", "pyyaml"]
+
+[project.scripts]
+mcg = "mcg.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+packages = ["mcg"]
+
+[tool.setuptools.package-data]
+mcg = ["templates/*.yaml"]

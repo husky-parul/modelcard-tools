@@ -1,0 +1,9 @@
+{
+    "hash": "sha256:bert456def",
+    "model_name": "bert-base-uncased",
+    "f1_score": 0.78,
+    "license": "apache-2.0",
+    "dataset": "bookcorpus",
+    "cve_count": 1
+  }
+  

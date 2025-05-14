@@ -1,0 +1,8 @@
+{
+  "hash": "sha256:falconabc123",
+  "model_name": "falcon-7b",
+  "f1_score": 0.83,
+  "license": "apache-2.0",
+  "dataset": "pile",
+  "cve_count": 2
+}

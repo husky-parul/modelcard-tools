@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mds"
+version = "0.1.0"
+description = "ModelCard Discovery Service for indexing and search"
+authors = [
+  { name = "Parul Singh", email = "parsingh@redhat.com" }
+]
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "pydantic",
+  "requests"
+]
+
+[project.scripts]
+mds = "mds.cli:main"
+
+[tool.setuptools]
+packages = ["mds"]
+
+
+[tool.setuptools.package-data]
+mds = ["*.json", "*.yaml", "storage/*"]

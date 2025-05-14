@@ -1,0 +1,7 @@
+runtime:
+  framework: vllm
+  device: A100
+  cuda_version: 12.9
+  timestamp: null
+  latency_ms: null
+  tokens_per_sec: null

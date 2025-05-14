@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: mds
+Version: 0.1.0
+Summary: ModelCard Discovery Service for indexing and search
+Author-email: Parul Singh <parsingh@redhat.com>
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: requests

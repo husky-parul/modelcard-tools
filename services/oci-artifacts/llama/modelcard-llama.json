@@ -1,0 +1,9 @@
+{
+    "hash": "sha256:llama2abc123",
+    "model_name": "llama-2-7b",
+    "f1_score": 0.87,
+    "license": "apache-2.0",
+    "dataset": "c4",
+    "cve_count": 0
+  }
+  

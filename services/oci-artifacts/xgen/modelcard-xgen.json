@@ -1,0 +1,8 @@
+{
+  "hash": "sha256:xgen789abc",
+  "model_name": "xgen-7b",
+  "f1_score": 0.82,
+  "license": "apache-2.0",
+  "dataset": "openwebtext",
+  "cve_count": 1
+}

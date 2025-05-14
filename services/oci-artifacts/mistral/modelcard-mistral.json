@@ -1,0 +1,9 @@
+{
+    "hash": "sha256:mistral789ghi",
+    "model_name": "mistral-7b-instruct",
+    "f1_score": 0.91,
+    "license": "mit",
+    "dataset": "refinedweb",
+    "cve_count": 0
+  }
+  

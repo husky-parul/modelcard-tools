@@ -1,0 +1,8 @@
+{
+    "model_name": "TEXT",
+    "f1_score": "REAL",
+    "license": "TEXT",
+    "dataset": "TEXT",
+    "cve_count": "INTEGER"
+  }
+  
